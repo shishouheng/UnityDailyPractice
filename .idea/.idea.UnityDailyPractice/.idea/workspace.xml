@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ac5c7875-096c-47b8-97d6-eec56afc1ba1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Material/PlaneMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Material/PlaneMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/RenderTexture/PlaneRenderTexture.renderTexture" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/RenderTexture/PlaneRenderTexture.renderTexture.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChinarCamera.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChinarCamera.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChinarMirrorPlane.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChinarMirrorPlane.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/MirrorShader.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/MirrorShader.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/5.18RenderTexture.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/5.18RenderTexture.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "CppUnrealEngineOptionsId",
     "vue.rearranger.settings.migration": "true"
@@ -98,7 +113,7 @@
       <workItem from="1716020371019" duration="41000" />
       <workItem from="1716020421791" duration="123000" />
       <workItem from="1716020552525" duration="167000" />
-      <workItem from="1716020727138" duration="235000" />
+      <workItem from="1716020727138" duration="1394000" />
     </task>
     <servers />
   </component>
