@@ -276,8 +276,6 @@ MonoBehaviour:
   blackTile: {fileID: 11400000, guid: f497706aad78441b3937b0f2d2bfb122, type: 2}
   tileMap: {fileID: 65499506}
   grid: {fileID: 295007733}
-  tileMapSize: {x: 25, y: 14}
-  ant: {fileID: 1912542368}
 --- !u!4 &106832530
 Transform:
   m_ObjectHideFlags: 0
@@ -689,7 +687,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9fb28649cbdc4f04a2b56dd465631ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  white: {fileID: 11400000, guid: df4c2d151074d43cab5ad153a54421d9, type: 2}
+  black: {fileID: 11400000, guid: f497706aad78441b3937b0f2d2bfb122, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

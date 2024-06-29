@@ -5,33 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac5c7875-096c-47b8-97d6-eec56afc1ba1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/Ant.aseprite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/Ant.aseprite.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/BlackSlot1WithLine.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/BlackSlot1WithLine.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/BlackSlotWithLine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/BlackSlotWithLine.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/BlackSlotWithLine.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/BlackSlotWithLine.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/SlotPalette.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/SlotPalette.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/WhiteSlot1WithLine.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/WhiteSlot1WithLine.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/WhiteSlotTileWithLine.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/WhiteSlotTileWithLine.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/WhiteSlotWithLine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemap/WhiteSlotWithLine.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/AntMove.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/AntMove.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/EasyGrid.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/EasyGrid.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityDailyPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityDailyPractice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/5.19LangtonAntScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/5.19LangtonAntScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/AntMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/AntMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +22,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4062115a1c5748d889ffa9b1e24a7db64000/4d/2ffbebd1/Grid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/AntMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4062115a1c5748d889ffa9b1e24a7db64000/4d/2ffbebd1/Grid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84605dd65d9d42edbf5a8009bef6721da000/f5/5886bf80/Tilemap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/6c/60d9d695/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/6d/cc5b6aa9/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/9f/788a4abd/Transform.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -56,28 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CppUnrealEngineOptionsId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/zhushouheng/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/zhushouheng/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/zhushouheng/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/zhushouheng/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/Users/zhushouheng/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/Users/zhushouheng/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.17f1c1/Unity.app/Contents/MacOS/Unity" />
@@ -131,7 +115,19 @@
       <workItem from="1716020727138" duration="1394000" />
       <workItem from="1716079279975" duration="10802000" />
       <workItem from="1716209661623" duration="12000" />
-      <workItem from="1716209758198" duration="2943000" />
+      <workItem from="1716209758198" duration="20129000" />
+      <workItem from="1719022051380" duration="19000" />
+      <workItem from="1719022076543" duration="199000" />
+      <workItem from="1719022286849" duration="133000" />
+      <workItem from="1719022442905" duration="13000" />
+      <workItem from="1719022483445" duration="42000" />
+      <workItem from="1719022573562" duration="6000" />
+      <workItem from="1719022629448" duration="8000" />
+      <workItem from="1719022706957" duration="6000" />
+      <workItem from="1719023115354" duration="23000" />
+      <workItem from="1719023322585" duration="49000" />
+      <workItem from="1719023378891" duration="10000" />
+      <workItem from="1719023402978" duration="2399000" />
     </task>
     <servers />
   </component>
