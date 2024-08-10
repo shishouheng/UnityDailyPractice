@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -15,8 +16,19 @@ public class AntMove : MonoBehaviour
     private Vector3Int _nextSlotPos;
     private Vector3Int _direction = Vector3Int.up;
     private float _rotateSpeed = 2f;
-    private float _moveSpeed = 1f;
+    private float _moveSpeed = 0.1f;
 
+    private void test()
+    {
+        List<GameObject> a = new List<GameObject>();
+        foreach (var VARIABLE in a)
+        {
+            foreach (var VARIABLEa in a)
+            {
+                
+            }
+        }
+    }
     private void Start()
     {
         _slotController = SlotController.Instance;

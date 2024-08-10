@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac5c7875-096c-47b8-97d6-eec56afc1ba1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/EasyGrid.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/EasyGrid.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityDailyPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityDailyPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/5.19LangtonAntScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/5.19LangtonAntScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/AntMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/AntMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/SlotData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +20,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/5.19LangtonAnt/AntMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4062115a1c5748d889ffa9b1e24a7db64000/4d/2ffbebd1/Grid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84605dd65d9d42edbf5a8009bef6721da000/f5/5886bf80/Tilemap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/28/12506d41/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/6c/60d9d695/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/6d/cc5b6aa9/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/9f/788a4abd/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -128,6 +127,11 @@
       <workItem from="1719023322585" duration="49000" />
       <workItem from="1719023378891" duration="10000" />
       <workItem from="1719023402978" duration="2399000" />
+      <workItem from="1719053777380" duration="7020000" />
+      <workItem from="1721910635427" duration="21000" />
+      <workItem from="1721910700640" duration="418000" />
+      <workItem from="1721911169466" duration="137000" />
+      <workItem from="1721911332997" duration="422000" />
     </task>
     <servers />
   </component>
@@ -139,5 +143,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="UnityDailyPractice" type="b2602c69:ProjectViewProjectNode" />
+        <item name="rider.module" type="47feb1d3:ProjectViewModuleNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
