@@ -183,7 +183,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6d1f01d3876f947578206c1d5484d376, type: 2}
+  - {fileID: 2100000, guid: 08009620c4f3f4231a082fb92db2f3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -331,7 +331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1874174345}
-  - component: {fileID: 1874174344}
+  - component: {fileID: 1874174346}
   m_Layer: 0
   m_Name: CreateCube
   m_TagString: Untagged
@@ -339,21 +339,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1874174344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874174343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bee01a662fb7e42ec92971d81b7ab8c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _instanceGo: {fileID: 544303709}
-  _instanceCount: 10
-  _bRandPos: 1
 --- !u!4 &1874174345
 Transform:
   m_ObjectHideFlags: 0
@@ -369,6 +354,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1874174346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874174343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bee01a662fb7e42ec92971d81b7ab8c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _instanceGo: {fileID: 544303709}
+  _instanceCount: 10
+  _bRandPos: 1
 --- !u!1 &1941688529
 GameObject:
   m_ObjectHideFlags: 0

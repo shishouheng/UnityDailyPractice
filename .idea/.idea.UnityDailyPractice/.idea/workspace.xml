@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac5c7875-096c-47b8-97d6-eec56afc1ba1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceMaterial.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceShader.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceShader.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/8.31GPUInstance/CreateCube.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/8.31GPUInstance/CreateCube.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceShader.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/28/12506d41/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/6c/60d9d695/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/6d/cc5b6aa9/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/7a/f7bd95bf/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc0ec58d048641a1990f7b5fd4d13318174200/9f/788a4abd/Transform.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -157,6 +155,7 @@
       <workItem from="1723950568456" duration="23000" />
       <workItem from="1723950599207" duration="2861000" />
       <workItem from="1724588911798" duration="2445000" />
+      <workItem from="1725087413728" duration="5653000" />
     </task>
     <servers />
   </component>

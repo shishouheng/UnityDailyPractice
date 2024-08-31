@@ -22,6 +22,11 @@ Shader "Unlit/GpuInstanceShader"
 
             #include "UnityCG.cginc"
 
+            UNITY_INSTANCING_BUFFER_START(Props)
+                UNITY_DEFINE_INSTANCED_PROP(float4,_Color)
+	      	    UNITY_DEFINE_INSTANCED_PROP(float, _Phi)
+            UNITY_INSTANCING_BUFFER_END(Props)
+
             struct appdata
             {
                 float4 vertex : POSITION;
@@ -50,6 +55,10 @@ Shader "Unlit/GpuInstanceShader"
                 UNITY_SETUP_INSTANCE_ID(v);
                 //5.将实例id从顶点着色器传递到片元着色器
                 UNITY_TRANSFER_INSTANCE_ID(v,o);
+
+                float phi = UNITY_ACCESS_INSTANCED_PROP(Props, _Phi);
+                v.vertex = v.vertex + sin(_Time.y + phi);
+                
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 UNITY_TRANSFER_FOG(o,o.vertex);
@@ -60,10 +69,8 @@ Shader "Unlit/GpuInstanceShader"
             {
                 //6.在片元着色器中设置实例id，使得片元着色器能够根据实例id读取每个实例的特定数据：颜色、矩阵等
                 UNITY_SETUP_INSTANCE_ID(i);
-                // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv);
-                // apply fog
-                UNITY_APPLY_FOG(i.fogCoord, col);
+                //得到由CPU设置的颜色
+                float4 col= UNITY_ACCESS_INSTANCED_PROP(Props, _Color);
                 return col;
             }
             ENDCG
