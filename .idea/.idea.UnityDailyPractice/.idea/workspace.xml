@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac5c7875-096c-47b8-97d6-eec56afc1ba1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Chapter02/Texture/Church.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Chapter02/Texture/Church.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Chapter02/Texture/Normal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Chapter02/Texture/Normal.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Transparent.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Transparent.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.10.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.10/NormalMapShader.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.10/NormalMapShader.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.18.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.18/TransparentShader.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.18/TransparentShader.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityDailyPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityDailyPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/TexturedMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/TexturedMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/7.28Shader.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/7.28Shader.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceShader.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/8.31GpuInstance/GpuInstanceShader.shader.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +66,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="独立播放器.Start Unity">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="启动 Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.17f1c1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
@@ -109,7 +99,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="附加到 Unity 编辑器并运行" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -119,7 +109,7 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="附加到 Unity 编辑器" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -166,6 +156,7 @@
       <workItem from="1722154726865" duration="16500000" />
       <workItem from="1723950568456" duration="23000" />
       <workItem from="1723950599207" duration="2861000" />
+      <workItem from="1724588911798" duration="2445000" />
     </task>
     <servers />
   </component>
